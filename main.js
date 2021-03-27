@@ -1,5 +1,5 @@
-var getType = document.querySelectorAll("#type-pizza");
-var getImage = document.querySelectorAll(".image-pizza");
+var getType = document.querySelectorAll("li");
+var getImage = document.querySelectorAll("img");
 
 //remove all pizza effects at page start
 getType.forEach((li) => {
